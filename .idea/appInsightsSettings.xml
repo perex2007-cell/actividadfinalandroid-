@@ -8,7 +8,7 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.example.actividadfinalandroid" />
+                  <option name="appId" value="com.sena.taskmanager" />
                   <option name="mobileSdkAppId" value="1:1015660024719:android:244300b308129c5445b1fa" />
                   <option name="projectId" value="actividadfinalandroid-9512c" />
                   <option name="projectNumber" value="1015660024719" />

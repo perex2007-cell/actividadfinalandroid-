@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.actividadfinalandroid"
+    namespace = "com.sena.taskmanager"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.actividadfinalandroid"
+        applicationId = "com.sena.taskmanager"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
