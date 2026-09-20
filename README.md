@@ -82,3 +82,9 @@ La estructura sigue el estándar de Clean Architecture:
 | Formulario de Tarea | Lista de Borradores |
 | :---: | :---: |
 | <img src="screenshots/taskform.png" width="200"> | <img src="screenshots/draftlist.png" width="200"> |
+
+## 7. Evidencias de Firebase (Backend)
+
+| Firebase Authentication (Usuarios) | Cloud Firestore (Base de Datos) |
+| :---: | :---: |
+| <img src="screenshots/firebase_auth.png" width="400"> | <img src="screenshots/firebase_firestore.png" width="400"> |
