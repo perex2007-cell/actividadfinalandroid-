@@ -3,6 +3,9 @@
 ## 1. Descripción y Equipo
 Esta aplicación es un **Gestor Personal de Tareas** diseñado para permitir a los usuarios administrar sus pendientes tanto de forma remota como local. La aplicación permite el registro e inicio de sesión de usuarios, garantizando que cada persona solo pueda acceder a su propia información mediante una integración segura con Firebase. Además, cuenta con un sistema de borradores locales que permite trabajar sin conexión a internet.
 
+**🚀 Descarga del APK Funcional:**
+Puedes descargar el instalador directamente desde este repositorio: [GestorTareas_AlexanderPerez.apk](./release/GestorTareas_AlexanderPerez.apk)
+
 **Integrantes del equipo:**
 *   Alexander Pérez Ortiz
 
