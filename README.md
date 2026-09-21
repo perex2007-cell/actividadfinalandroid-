@@ -19,6 +19,9 @@ Esta aplicación es un **Gestor Personal de Tareas** diseñado para permitir a l
 
 ### Arquitectura:
 Se ha implementado una arquitectura **MVVM (Model-View-ViewModel)** siguiendo los principios de **Clean Architecture**, dividiendo el proyecto en tres capas principales:
+
+<img src="screenshots/diagrama.png" width="600">
+
 1.  **Capa de Dominio (Domain):** Contiene los modelos de datos puros, las interfaces de los repositorios y los casos de uso que definen la lógica de negocio.
 2.  **Capa de Datos (Data):** Implementa los repositorios, gestiona las fuentes de datos (Firestore y Room) y realiza el mapeo de datos entre capas.
 3.  **Capa de UI:** Compuesta por Composable Screens y ViewModels que gestionan el estado de la interfaz de forma inmutable.
