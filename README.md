@@ -88,3 +88,20 @@ La estructura sigue el estándar de Clean Architecture:
 | Firebase Authentication (Usuarios) | Cloud Firestore (Base de Datos) |
 | :---: | :---: |
 | <img src="screenshots/firebase_auth.png" width="400"> | <img src="screenshots/firebase_firestore.png" width="400"> |
+
+## 8. Matriz de Pruebas
+
+A continuación se detallan los casos de prueba ejecutados y sus resultados:
+
+| Código | Caso de Prueba | Resultado Esperado | Estado |
+| :--- | :--- | :--- | :---: |
+| **P01** | Registrar datos válidos | Se crea la cuenta y se inicia la sesión | ✅ Pasó |
+| **P02** | Registrar un correo existente | Se muestra un mensaje de error y la app sigue estable | ✅ Pasó |
+| **P03** | Ingresar contraseña incorrecta | No se permite el acceso | ✅ Pasó |
+| **P04** | Reiniciar app con sesión activa | Se abre automáticamente la pantalla de tareas | ✅ Pasó |
+| **P05** | Cerrar sesión y usar botón atrás | No se permite el regreso a pantallas protegidas | ✅ Pasó |
+| **P06** | CRUD completo de tareas | Creación, lectura, edición y borrado exitosos en la nube | ✅ Pasó |
+| **P07** | Aislamiento de datos | Un usuario no puede ver las tareas de otro usuario | ✅ Pasó |
+| **P08** | Borradores sin conexión | Los borradores se guardan y persisten localmente | ✅ Pasó |
+| **P09** | Publicar borrador con conexión | Se crea en Firestore y se elimina de Room automáticamente | ✅ Pasó |
+| **P10** | Error al publicar borrador | Si falla la red, el borrador se mantiene en Room | ✅ Pasó |
